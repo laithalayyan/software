@@ -15,7 +15,7 @@ public class testhello {
 	public void testAdd_twoPositiveInteger() {
 		obj=new helloworld();
 		int expected=9;
-		int actual=obj.add(5,4);
+		int actual=obj.add(5, 4);
 		//test
 		assertTrue(expected==actual);
 	}
